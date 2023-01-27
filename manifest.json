@@ -1,0 +1,16 @@
+{
+	"name": "selectFloro",
+	"description": "Selecione o conteudo do site themosvagas.com.br",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": [
+				"https://themosvagas.com.br/*"
+			],
+			"js": [
+				"main.js"
+			]
+		}
+	]
+}
